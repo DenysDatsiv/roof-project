@@ -1,0 +1,38 @@
+.showcase-section-header
+{margin-top: 1.5em;
+    text-align: center;
+    color: #d75f3f;
+    font-size: 54px;
+    line-height: 1.2;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+.showcase-section-subtext
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+}
+.carousel-showcase-section-img
+{
+    max-width: 100%;
+    height: auto;
+    max-width: 330px;
+    max-height: 250px;
+  }
+  .showcase-div-slide
+  {
+    margin: 0 30px;
+  }

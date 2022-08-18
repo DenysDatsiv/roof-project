@@ -1,0 +1,76 @@
+.why-choose-us-choosing
+{
+background-color: #fff;
+margin: 0 10px;
+width: 280px;
+height: 314px;
+border-style: solid;
+border-width: 7px;
+border-color:  #d75f3f #fff #fff #fff;
+}
+.why-choose-us-section
+{
+    background-color: #f3f3f3f3;
+}
+.why-choose-us-header
+{color: #d75f3f;
+    margin-top: 3em;
+    padding-top: 1em;
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: Libre Franklin,sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+text-align: center;
+}
+.service-we-provide-header span
+{
+      color: #403331;
+}.why-choose-us-text
+{
+    font-size: 19px;
+    margin: 20px 15px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+}
+.why-choose-us-choosing-header
+{
+font-size: 26px;
+    line-height: 1.36;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+    margin: 15px 22px;
+}
+.why-choose-us-choosing img
+{
+padding-top:1.5em ;
+margin:0 22px;
+}
+.why-choose-us-choosing-text
+{
+    margin:20px 22px;
+    
+}
+@media  (min-width: 992px)
+{
+    .why-choose-us-choosing
+{
+background-color: #fff;
+justify-content: center;
+align-items: center;
+width: 320px;
+height: 364px;
+}
+}

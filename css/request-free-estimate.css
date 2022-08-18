@@ -1,0 +1,59 @@
+.request-free-estimate-section
+{
+    background: rgba(223, 36, 15, 0.987)url(/img/roof.jfif);
+    /* background: rgba(225, 7, 152, 0.98)url(/img/roof.jfif); */
+    text-align: center;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    padding-bottom: 4.4em;
+}
+
+.request-free-estimate-section-header
+{
+    padding-top:2.3em ;
+    margin: 0 24px;
+    margin-bottom: 30px;
+font-size: 40px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+.request-free-estimate-section-text
+{
+font-size: 20px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 3em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.request-free-estimate-section-fake-button
+    {
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 16.5px;
+        padding: 17px 26px;
+        cursor: pointer;
+        border-radius: 8px;
+        color: var(--primari-white-color);
+        border-color:#fff;
+        border: 1px solid #fff;
+        text-align: center;
+      }
+      .request-free-estimate-section-fake-button:hover,
+      .request-free-estimate-section-fake-button:focus {
+        background-color: #fff;
+        text-decoration: none;
+        color: №000;
+      }

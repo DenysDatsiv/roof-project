@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    .button-block
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .button-link-contact-us
+    {
+      margin-top: 10px;
+    }
+  }
+ 
+
+.button-link-our-services {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16.5px;
+    padding: 18px 26px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--primari-white-color);
+    background-color:#e7b957;
+    text-align: center;
+  }
+  .button-link-our-services:hover,
+  .button-link-our-services:focus {
+    background-color: rgb(233, 145, 15);
+    color: #fff;
+  }
+  .button-link-contact-us
+  {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16.5px;
+    padding: 17px 26px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--primari-white-color);
+    border-color:#fff;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+
+  .button-link-contact-us:hover,
+  .button-link-contact-us:focus {
+    background-color: #fff;
+    color: red;
+  }
+  .span-dott
+  {
+    color:#e7b957;
+    font-size: 85gpx;
+
+  }
+  .header__baner-text
+  {
+    color:#fff;
+  }
+
+
+
+
+
+svg:hover
+{
+  fill: red;
+}

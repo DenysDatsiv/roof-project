@@ -1,0 +1,103 @@
+.roof-leaking-section-phone-input
+   {align-items: center;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color:rgba(0, 0, 0, .1);
+    height: 50px;
+    margin:0 17px ;
+    margin-bottom: 25px;
+    justify-content: center;
+    width: 90%;
+    border-radius: 9px;
+    font-weight: 500;}
+.roof-leaking-section-text{
+    font-size: 20px;
+    margin: 0 25px;
+ margin-bottom: 45px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: rgb(244, 244, 244);
+    text-transform: none;
+}
+.roof-leaking-section-header{
+    margin: 0 25px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.roof-leaking-section
+{
+background-image: url(../img/roof-leaking.png);
+padding-top: 110px;
+padding-bottom: 100px;
+background-repeat: no-repeat;
+background-position-x: 43.93%;
+background-position-y: 70.98%;
+background-size: cover;
+}
+.roof-leaking-section-button-submit{
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #e7b957;
+    background-color: #e7b957;
+    height: 50px;
+    margin:0 19px ;
+    justify-content: center;
+    width: 90%;
+    border-radius: 9px;
+    font-weight: 500;
+}
+@media(min-width:992px){
+    .roof-leaking-section-button-submit{
+        width: 90%;
+        max-width: 600px;
+    }
+    .roof-leaking-section-phone-input
+    {
+        width: 100%;
+        max-width: 600px;
+    }
+    .roof-leaking-section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .roof-leaking-section-information
+    {
+        margin-left: 50px;
+    }
+    .button-roof-leaking
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .roof-leaking-section
+{
+padding-top: 190px;
+padding-bottom: 150px;
+background-repeat: no-repeat;
+background-position-x: 13.93%;
+background-position-y: 70.98%;
+background-size: cover;
+
+}
+.roof-leaking-section-phone-input::placeholder
+{
+    margin-left: 20px;
+}
+}

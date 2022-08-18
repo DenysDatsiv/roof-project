@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;1,300;1,400&family=Quicksand:wght@500&family=Roboto:wght@100;400;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Poppins:wght@400;700&display=swap");
+:root {
+  --primari-title-color: rgb(34, 34, 34);
+  --primari-text-color: #8c8c8c;
+  --accent-text-color: rgb(101, 101, 101);
+  --header-text-color: rgb(223, 223, 223);
+  --primari-white-color: #ffffff;
+  --bg-section-color: #f9f9f9;
+  --accent-color: #c00407;
+  --icons-color-hover: rgb(235, 5, 9);
+  --input-bg-color: #f9f9f9;
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--primari-text-color);
+  background-color: var(--primari-white-color);
+  margin: 0;
+}
+
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 922px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+.button-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16.5px;
+  padding: 18px 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  transition: background-color cubic-bezier(0.2, 0.2, 0.2, 0.2);
+}
+.button-link:hover,
+.button-link:focus {
+  background-color: var(--primari-title-color);
+}
+.button {
+  margin-top: 56px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16.5px;
+  padding: 18px 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  transition: background-color cubic-bezier(0.2, 0.2, 0.2, 0.2);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--primari-title-color);
+}

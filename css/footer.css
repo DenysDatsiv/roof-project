@@ -1,0 +1,162 @@
+
+.footer-img {
+    max-width: 190px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* margin-bottom: 20px; */
+
+}
+
+.footer-text {
+    margin: 0 20px;
+}
+
+.footer-service-choice,
+.footer-contact-choice,
+.footer-column-header,
+.adress-column,
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-column-header,
+.footer-column-header {
+    font-size: 22px;
+    line-height: 1.36;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+    margin-top: 1em;
+}
+
+.footer-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+}
+
+.footer-contact:hover {
+    color: #d75f3f;
+}
+
+.footer-service-choice {
+    margin-top: 1em;
+    color: #403331;
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-adress {
+    margin: 1px 0;
+}
+
+.footer-choice {
+    color: #403331;
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+.footer-choice:hover
+{
+    color: #d75f3f;
+}
+.created-by
+{
+color: #000;
+margin-bottom:1px;
+}
+.all-right-reserved
+{
+	color: #000;
+}
+.copyright-block
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-adress
+{
+    margin-bottom: 15px;
+}
+hr.style2 {
+	border-top: 1px solid #000;
+}
+@media (min-width:992px) {
+    .footer-adress
+    {
+        margin-bottom:12px ;
+    }
+    .footer-img
+    {
+        margin-bottom:30px;
+    }
+    .footer-contact
+    {
+     margin-bottom: 8px;
+    }
+    .img-plus-text-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-self: left;
+    }
+    .footer-container
+    {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .footer-text
+    {
+        max-width: 28em;
+    }
+    .footer-choice
+    {
+        margin-top:7px;
+    }    
+.footer-service-choice
+{
+    margin:20px;
+}
+.footer-container
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.created-by
+{
+	margin-left:8.5em ;
+}
+.all-right-reserved
+{
+	margin-right:8.5em ;
+}
+.copyright-block
+{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+
+}
+
+}

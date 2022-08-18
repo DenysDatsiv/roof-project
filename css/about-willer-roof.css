@@ -1,0 +1,112 @@
+.about-willer-roof-header
+{
+    margin-left: 20px;
+    text-align:left;
+    font-size: 40px;
+    color: #403331;
+    line-height: 1.2;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    margin-bottom:35px ;
+}
+.about-willer-roof-header span
+{
+    color: #d75f3f;
+}
+.about-willer-roof-subtext
+{
+margin: 0 20px;
+font-size: 20px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.about-willer-roof-text
+{ margin:0 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.img-fluid
+{
+    align-items: center;
+    margin: 0 22px;
+    width: 330px;
+    height: 320px;
+    margin-top: 4em;
+    margin-bottom: 2rem;
+}
+.about-willer-roof-showcase
+{
+    margin: 0 20px;
+text-decoration: none;
+color: #fff;
+border: 1px solid #e7b957;
+background-color: #e7b957;
+padding: 12px 24px;
+border-radius: 9px;
+font-weight:500;
+}
+.about-willer-roof-contact-us
+{ margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    border: 1.8px solid #000;
+    background-color:transparent;
+    padding: 12px 24px;
+    border-radius: 9px;
+    font-weight:500;
+}
+.about-willer-roof-fake-buttons
+{
+  margin-top: 2em;
+  margin-bottom:4em ;
+}
+@media only screen and (min-width:992px) {
+    .about-willer-roof-section
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .img-fluid
+{
+    align-items: center;
+    margin: 0 8rem;
+    width: 90%;
+    height: 90%;
+    max-width:28rem ;
+    max-height:28rem ;
+    margin-top: 4em;
+    margin-bottom: 2rem;
+}
+.about-willer-roof-info
+{
+    margin-top: 3.8em;
+    margin-right: 6rem;
+}
+.about-willer-roof-fake-buttons
+{
+    margin-top: 3rem;
+}
+.about-willer-roof-subtext
+{
+    margin-bottom: 35px;
+}
+}

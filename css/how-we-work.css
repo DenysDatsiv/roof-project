@@ -1,0 +1,108 @@
+.how-we-work-section {
+    background-color: #f3f3f3f3;
+}
+
+.how-we-work-header {
+    padding-top: 2em;
+    margin-top: 2em;
+    font-size: 35px;
+    color: #403331;
+    line-height: 1.2;
+    font-family: "Libre Frank", sans-serif;
+    font-weight: 800;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.how-we-work-header span {
+    color: #d75f3f;
+}
+
+.how-we-work-subtext {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+    margin: 0 26px;
+    text-align: center;
+}
+
+.undersection-header {
+    color: #e7b957;
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.undersection-subtext {
+    font-size: 22px;
+    line-height: 1.36;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+}
+
+.undersection-subtext span {
+    color: #d75f3f;
+}
+
+.undersection-text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #403331;
+    text-transform: none;
+}
+
+.how-we-work-cards {
+    margin: 0 25px;
+
+}
+
+.undersection-text {
+    margin-bottom: 30px
+}
+
+.undersection-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+.last {
+    padding-bottom: 3.5em;
+}
+
+.how-we-work-numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:992px) {
+    .how-we-work-numbers {
+        margin: 0 40px;
+        display: flex;
+        flex-direction: row;
+    }
+}
